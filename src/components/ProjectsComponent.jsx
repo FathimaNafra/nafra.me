@@ -15,7 +15,7 @@ const projectsData = [
         title: 'HallEase: Event & Hall Management System',
         description: 'A university-focused event and hall management system designed to streamline scheduling and booking of halls, classrooms, and event spaces. Features role-based authentication (Students, Lecturers, Mentors, External Users, Admins), admin dashboard for approvals and calendar management, real-time availability with color-coded calendar, notification system with email & SMS alerts, reports & analytics for hall usage trends, and AI/ML features including peak time prediction, hall recommendations, and chatbot assistant.',
         image: a1Image,
-        technologies: ['Next.js', 'Tailwind CSS', 'ShadCN UI', 'Supabase', 'PostgreSQL', 'Machine Learning'],
+        technologies: ['Next.js','TypeScript', 'Tailwind CSS', 'Supabase'],
         category: 'web',
         githubLink: 'https://github.com/zaplink/HallEase',
         liveLink: '',
