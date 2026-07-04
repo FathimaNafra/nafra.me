@@ -1,16 +1,119 @@
-# React + Vite
+# nafra.me
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website to showcase my projects, skills, and experience with a modern, responsive design.
 
-Currently, two official plugins are available:
+🌐 **Live site:** [nafra-me.vercel.app](https://nafra-me.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Clean, modern portfolio layout
+- Fully responsive design for desktop, tablet, and mobile
+- Project showcase section
+- Skills and experience highlights
+- Contact section with EmailJS integration
+- Smooth interactive UI with React + Vite
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React 18, JavaScript, HTML, CSS
+- **Build tool:** Vite
+- **Email service:** `@emailjs/browser`
+- **UI interaction:** `typed.js`
+
+## 📁 Project Structure
+
+```text
+.
+├── public/
+├── src/
+├── js/
+├── index.html
+├── Style.css
+├── vite.config.js
+└── package.json
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have installed:
+
+- [Node.js](https://nodejs.org/) (v18+ recommended)
+- npm (comes with Node.js)
+
+### Installation
+
+```bash
+git clone https://github.com/FathimaNafra/nafra.me.git
+cd nafra.me
+npm install
+```
+
+### Run in Development
+
+```bash
+npm run dev
+```
+
+Then open the local URL shown in your terminal (usually `http://localhost:5173`).
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+The production-ready files will be generated in the `dist/` folder.
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+## ⚙️ Available Scripts
+
+- `npm run dev` — Start development server
+- `npm run build` — Build app for production
+- `npm run preview` — Preview production build locally
+
+## 📬 Contact Form Setup (EmailJS)
+
+If you use EmailJS in this project, configure your EmailJS service/template keys in your source code or environment variables as needed.
+
+Suggested approach:
+
+1. Create an EmailJS account
+2. Create a service and email template
+3. Add your public key, service ID, and template ID where required in the app
+
+## 🌍 Deployment
+
+This site is currently deployed on **Vercel**.
+
+To deploy your own version:
+
+1. Fork this repository
+2. Import it into Vercel
+3. Configure any required environment variables
+4. Deploy
+
+## 🤝 Contributing
+
+Contributions, suggestions, and improvements are welcome.
+
+1. Fork the repo
+2. Create a feature branch
+3. Commit your changes
+4. Open a pull request
+
+## 📄 License
+
+This project is open source. You can add a license file (for example, MIT) if you want to define reuse terms explicitly.
+
+---
+
+Made with ❤️ by [FathimaNafra](https://github.com/FathimaNafra)
